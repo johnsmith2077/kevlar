@@ -36,7 +36,7 @@ sequencemod = Extension(
 )
 
 dependencies = [
-    'pysam>=0.14', 'networkx>=2.0', 'pandas>=0.23', 'scipy>=1.1',
+    'pysam>=0.14', 'networkx>=2.0, <2.4', 'pandas>=0.23', 'scipy>=1.1',
     'matplotlib>=2.2', 'intervaltree>=3.0.2'
 ]
 
